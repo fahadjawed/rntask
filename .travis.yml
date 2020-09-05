@@ -3,6 +3,8 @@ matrix:
         - language: android
           jdk: oraclejdk8
           dist: trusty
+          node_js:
+            - 12.14.0
           install: 
           android:
             components:
