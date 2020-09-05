@@ -7,6 +7,7 @@ matrix:
     - language: android
       jdk: oraclejdk8
       dist: trusty
+      install: ant deps
       android:
         components:
           # Uncomment the lines below if you want to
