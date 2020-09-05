@@ -4,7 +4,6 @@ matrix:
           node_js:
            - 12.14.0
           script: yarn
-        - language: java
         - language: android
           jdk: oraclejdk8
           dist: trusty
@@ -33,4 +32,4 @@ matrix:
               # if you need to run emulator(s) during your tests
               # - sys-img-x86-android-26
               # - sys-img-armeabi-v7a-android-17
-          script: ls
+          script: yarn && ls
