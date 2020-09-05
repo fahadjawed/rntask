@@ -1,6 +1,6 @@
 matrix:
     include:
-     - language: android
+        - language: android
           jdk: oraclejdk8
           dist: trusty
           install: 
