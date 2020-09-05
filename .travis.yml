@@ -3,7 +3,7 @@ matrix:
         - language: node_js
           node_js:
            - 12.14.0
-         script: yarn
+          script: yarn
         - language: java
         - language: android
           jdk: oraclejdk8
