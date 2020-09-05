@@ -4,6 +4,7 @@ matrix:
       node_js:
         - 12.14.0
       script: yarn
+    - language: java
     - language: android
       jdk: oraclejdk8
       dist: trusty
