@@ -1,8 +1,8 @@
 matrix:
     include:
         - language: node_js
-        node_js:
-            - 12.14.0
+            node_js:
+                - 12.14.0
           script: yarn && ls
         - language: android
           jdk: oraclejdk8
