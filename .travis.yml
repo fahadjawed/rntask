@@ -1,6 +1,6 @@
 matrix:
-    include:
-        - language: node_js
-          node_js:
-            - 12.14.0
-        script: yarn && ls
+  include:
+    - language: node_js
+      node_js:
+        - "12.14.0"
+      script: yarn && ls
