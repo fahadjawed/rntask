@@ -4,15 +4,10 @@ matrix:
       node_js:
         - 12.14.0
       script: yarn
-    - language: java
-      addons:
-        apt:
-          packages:
-            ant
     - language: android
       jdk: oraclejdk8
       dist: trusty
-      install: ant deps
+      install: 
       android:
         components:
           # Uncomment the lines below if you want to
